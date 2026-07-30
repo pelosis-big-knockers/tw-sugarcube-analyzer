@@ -1,0 +1,34 @@
+{
+  "name": "tw-sugarcube-analyzer",
+  "version": "0.1.0",
+  "description": "Shared analysis core for SugarCube's author-populated containers: recovers the types of setup / State.variables / State.temporary / settings members from their assignments, and projects .twee passages to TypeScript.",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "url": "https://github.com/pelosis-big-knockers/tw-sugarcube-analyzer"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./analyzer.js": "./analyzer.js",
+    "./twee.js": "./twee.js",
+    "./augmentation.js": "./augmentation.js"
+  },
+  "files": [
+    "index.js",
+    "analyzer.js",
+    "twee.js",
+    "augmentation.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "twine",
+    "sugarcube",
+    "twee",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
