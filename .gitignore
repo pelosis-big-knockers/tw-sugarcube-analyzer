@@ -1,1 +1,5 @@
 node_modules
+
+# Claude Code session state and worktrees; local-only. Committing a worktree
+# path records a mode-160000 gitlink that no .gitmodules describes.
+.claude/
