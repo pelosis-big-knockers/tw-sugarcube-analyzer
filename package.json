@@ -1,10 +1,15 @@
 {
   "name": "tw-sugarcube-analyzer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared analysis core for SugarCube's author-populated containers: recovers the types of setup / State.variables / State.temporary / settings members from their assignments, and projects .twee passages to TypeScript.",
   "license": "GPL-3.0-or-later",
   "repository": {
-    "url": "https://github.com/pelosis-big-knockers/tw-sugarcube-analyzer"
+    "type": "git",
+    "url": "git+https://github.com/pelosis-big-knockers/tw-sugarcube-analyzer.git"
+  },
+  "homepage": "https://github.com/pelosis-big-knockers/tw-sugarcube-analyzer#readme",
+  "bugs": {
+    "url": "https://github.com/pelosis-big-knockers/tw-sugarcube-analyzer/issues"
   },
   "type": "commonjs",
   "main": "index.js",
@@ -12,7 +17,8 @@
     ".": "./index.js",
     "./analyzer.js": "./analyzer.js",
     "./twee.js": "./twee.js",
-    "./augmentation.js": "./augmentation.js"
+    "./augmentation.js": "./augmentation.js",
+    "./package.json": "./package.json"
   },
   "files": [
     "index.js",
